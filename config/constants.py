@@ -2,7 +2,7 @@
 Модуль config.constants
 
 Содержит константы и настройки, используемые в проекте, такие как токен бота,
-ID администраторов, пути к файлам с данными и путь к исполняемому файлу WebDriver.
+данные подключения к PostgreSQL.
 """
 
 import os
@@ -30,5 +30,6 @@ DB_CONN = get_db_connection_params()
 CURRENCY = 'rub'
 DEST = '-1255942'
 
+#
 RABBIT_LOGIN = "guest"
 RABBIT_PASSWORD = "guest"
